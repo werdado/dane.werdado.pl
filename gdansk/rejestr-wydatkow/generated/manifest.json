@@ -1,0 +1,119 @@
+{
+  "count": 66343,
+  "sources": [
+    {
+      "file": "publikacja-wydatkow-2026.json",
+      "bytes": 1518653,
+      "sha256": "049979b8e45967c62ac1dea449d8bba4f828a163a54f9e44632371e6c4723821",
+      "count": 2702
+    },
+    {
+      "file": "publikacja-wydatkow-2025.json",
+      "bytes": 3966829,
+      "sha256": "84b6dda5b161aa21684b0a9a80880189e20725fcbddff450f11d9ec36a40a2ae",
+      "count": 5494
+    },
+    {
+      "file": "publikacja-wydatkow-2024.json",
+      "bytes": 4021090,
+      "sha256": "e8b641caaeb84474c1d405e011fdc976fdfe63030c1064f0c7a2a752d098c6df",
+      "count": 5607
+    },
+    {
+      "file": "publikacja-wydatkow-2023.json",
+      "bytes": 3019681,
+      "sha256": "e53158ab8d13a60e10dbb88701e4f1075cd441307d5015087e82c6390362e997",
+      "count": 5515
+    },
+    {
+      "file": "publikacja-wydatkow-2022.json",
+      "bytes": 2691854,
+      "sha256": "dacf18d34aff73857c73ded0c115cccf07d52145c2be1bc70938ea19a15bfdb9",
+      "count": 4929
+    },
+    {
+      "file": "publikacja-wydatkow-2021.json",
+      "bytes": 3209757,
+      "sha256": "b86fc812d684780e21c6be6e92321b854ab5696ae8cb5567531b0f4b92fbba8f",
+      "count": 4493
+    },
+    {
+      "file": "publikacja-wydatkow-2020.json",
+      "bytes": 2571831,
+      "sha256": "29cd20db3ccf4ea2f737158e4f59f80cb7ae40b0e909495a2e4dba1c0f6dd84e",
+      "count": 4849
+    },
+    {
+      "file": "publikacja-wydatkow-2019.json",
+      "bytes": 3672927,
+      "sha256": "b22c855b7d0e26416d0b94abfafff90a72c01adeda5a01431f801279e41163d0",
+      "count": 6994
+    },
+    {
+      "file": "publikacja-wydatkow-2018.json",
+      "bytes": 4729131,
+      "sha256": "a02d22ba13f1522803cba992aa4530a9cef658c3f4b57f6016f57867546762fc",
+      "count": 6687
+    },
+    {
+      "file": "publikacja-wydatkow-2017.json",
+      "bytes": 4568967,
+      "sha256": "a7258653a4683d237f3edf225ea9bbe059d414e5e927c713788457235ca1618f",
+      "count": 6377
+    },
+    {
+      "file": "publikacja-wydatkow-2016.json",
+      "bytes": 3373488,
+      "sha256": "e98d2884d7d294962f1f45d0902ce5184ac4d69a183b3c03b7be1b97cc2cc821",
+      "count": 6278
+    },
+    {
+      "file": "publikacja-wydatkow-2015.json",
+      "bytes": 4550676,
+      "sha256": "16ac7cad8f1a39ee7376a882855bfa5b9a2d6abc1fc93737644b3ec1780e807d",
+      "count": 6418
+    }
+  ],
+  "corrections": [
+    {
+      "id": "2024:183",
+      "field": "contractEndDate",
+      "original": "2924-12-12T00:00:00+0100",
+      "corrected": "2024-12-12T00:00:00+0100"
+    },
+    {
+      "id": "2020:4659",
+      "field": "contractStartDate",
+      "original": "0202-01-15T00:00:00+0124",
+      "corrected": "2020-01-15T00:00:00+0124"
+    },
+    {
+      "id": "2019:49",
+      "field": "contractStartDate",
+      "original": "0201-12-23T00:00:00+0124",
+      "corrected": "2019-12-23T00:00:00+0124"
+    },
+    {
+      "id": "2019:5855",
+      "field": "contractStartDate",
+      "original": "0201-02-22T00:00:00+0124",
+      "corrected": "2019-02-22T00:00:00+0124"
+    },
+    {
+      "id": "2016:2322",
+      "field": "contractStartDate",
+      "original": "0216-08-26T00:00:00+0124",
+      "corrected": "2016-08-26T00:00:00+0124"
+    },
+    {
+      "id": "2015:2028",
+      "field": "contractEndDate",
+      "original": "2915-09-20T00:00:00+0100",
+      "corrected": "2015-09-20T00:00:00+0100"
+    }
+  ],
+  "files": {
+    "records": "records.ecb1865a1975168b.json",
+    "index": "index.52682b4e6d620f31.json"
+  }
+}

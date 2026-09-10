@@ -1,1 +1,74 @@
-foo
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rejestr wydatków Gdańska</title>
+  <script type="module" crossorigin src="./assets/index-BJ1ccEmX.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-Dz3X4cZY.css">
+</head>
+<body class="editorial">
+<div class="page">
+<main>
+  <section class="hero" aria-labelledby="page-title">
+    <div>
+      <p class="eyebrow">GDAŃSK. Rejestr wydatków</p>
+      <h1 id="page-title">Wydatki — jawne<br>nawet gdy ukryte.</h1>
+      <p class="intro">Rejestr wydatków Gdańska z lat 2015-2026, ukryty w lipcu 2026. Najnowsze dane znajdują się w Centralnym Rejestrze Umów: <a href="https://rejestrumow.gov.pl/">https://rejestrumow.gov.pl/</a></p>
+    </div>
+    <div class="collection">
+      <span class="collection-label">ZBIÓR ŹRÓDŁOWY</span>
+      <strong><span id="collection-count">—</span><span>wpisy w rejestrze</span></strong>
+      <div><b>2015–2026</b></div>
+      <p class="collection-date">2026: dane do 29 lipca</p>
+      <div class="collection-downloads">
+        <a href="./wydatki-gdanska_2015-2026.xlsx" download>Pobierz dane w formie Excel</a>
+        <a href="./data/index.html">Pobierz źródłowe pliki JSON</a>
+      </div>
+    </div>
+  </section>
+  <p id="status" role="status">Wczytywanie danych…</p>
+  <button id="retry" type="button" hidden>Spróbuj ponownie</button>
+  <form id="search-form">
+    <fieldset id="controls" disabled>
+      <legend class="visually-hidden">Wyszukiwanie i filtry</legend>
+      <section class="search-area" aria-label="Wyszukiwanie">
+      <div class="search-line">
+        <label class="grow">Szukaj we wszystkich polach tekstowych
+          <span class="search-box"><span aria-hidden="true">⌕</span><input id="query" type="search" placeholder="np. remont szkoły" aria-describedby="search-note"></span>
+        </label>
+        <button type="submit">Szukaj</button>
+      </div>
+      <p id="search-note" class="note">Każde słowo musi pasować. Pomijamy wielkość liter i polskie znaki. W opisach, trybach, rodzajach i nazwach kontrahentów uwzględniamy jedną literówkę od czterech znaków.</p>
+      </section>
+      <section class="register" aria-label="Rejestr wydatków">
+      <div class="table-toolbar">
+        <div><p class="eyebrow">REJESTR WYDATKÓW</p><h2 id="count" aria-live="polite"></h2></div>
+        <button id="clear" type="button" class="secondary">Wyczyść filtry</button>
+      </div>
+      <p class="scroll-hint">Filtruj pod nagłówkami · Przesuń tabelę, aby zobaczyć pozostałe kolumny →</p>
+      <div class="table-scroll" tabindex="0" role="region" aria-label="Wyniki — tabela przewijana poziomo">
+        <table>
+          <caption class="visually-hidden">Wpisy rejestru wydatków</caption>
+          <thead><tr id="headings"></tr><tr id="filter-head"></tr></thead>
+          <tbody id="results" aria-busy="true"></tbody>
+        </table>
+      </div>
+      <p id="empty" hidden>Brak wpisów spełniających wszystkie warunki.</p>
+      <div class="table-foot"><button id="more" type="button" hidden>Pokaż kolejne 100 wpisów</button></div>
+      </section>
+    </fieldset>
+  </form>
+</main>
+</div>
+<dialog id="record-dialog" aria-labelledby="record-title">
+  <div class="dialog-top"><p class="eyebrow">SZCZEGÓŁY WPISU</p><form method="dialog"><button autofocus>Zamknij</button></form></div>
+  <h2 id="record-title">Pełny wpis</h2>
+  <p><a id="record-link" class="record-link" href="">Stały link do tego wpisu</a></p>
+  <dl id="record-fields"></dl>
+</dialog>
+<!-- 100% privacy-first analytics -->
+<script data-collect-dnt="true" async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+<noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif?collect-dnt=true" alt="" referrerpolicy="no-referrer-when-downgrade"/></noscript>
+</body>
+</html>
